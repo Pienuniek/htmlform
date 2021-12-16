@@ -1,0 +1,89 @@
+body {font-family: Arial, Helvetica, sans-serif;
+}
+.navy-border {border: 10px solid navy;
+border-radius: 20px;
+padding: 20px;
+margin-top: 52px;
+margin-bottom: 4px;
+
+ }
+.red-border {border: 10px solid crimson;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+
+}
+.green-background {background-color:paleturquoise;
+}
+.yelbgc {background-color: oldlace;
+}
+.big-font {font-size:x-large;
+}
+header {text-align:center;
+}
+/* add full adress to make sure you dont change all lists */
+nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1c9aee;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        
+          }
+          
+nav li {
+            float: left;
+          }
+          
+    li a {
+            display: block;
+            color: navy;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+    
+          .active {
+            background-color: navy; color:oldlace;
+               }      
+          /* Change the link color to #111 (black) on hover */
+          nav li a:hover {
+            background-color: #1b9;
+          }
+
+/* Media Queries */
+
+@media screen and (min-width: 1024px) { 
+  main { background-color: rgb(241, 208, 145);
+  } 
+}     
+
+@media screen and (min-width: 1024px) {
+  body {
+      color: navy;
+font-family: Arial, sans-serif;
+      font-size: 12pt;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {font-size: 10pt;
+  }
+}
+
+@media print {
+  body {
+      color: black;
+font-family: Times, serif;
+      font-size: 12px;
+  }
+}
+@media screen, print {
+  body {
+      line-height: 1.2;
+  }
+}
